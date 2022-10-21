@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+button {
+    border: none;
+    background-color: #FFCB9A;
+    font-size: 4vmin;
+    color: #2C3531;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    outline: none;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+button:hover {
+  background-color: #CBA37C;
+}
+
+.equals {
+  grid-column: 3 / 5;
+  background-color: #D9B08C;
+}
+
+.equals:hover {
+  background-color: 	#976265;
+}

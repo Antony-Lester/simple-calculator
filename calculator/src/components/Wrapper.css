@@ -1,0 +1,15 @@
+.wrapper {
+    position:absolute;
+    top: 50vh;
+    left: 50vw;
+    width: 340px;
+    height: 540px;
+    max-width: 40vw;
+    max-height: 70vh;
+    transform: translate(10%, -50%);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #2C3531;
+    background-image: linear-gradient(90deg#2C3531, #485461 , #28313b ,#2C3531);
+    z-index: 100;
+  }

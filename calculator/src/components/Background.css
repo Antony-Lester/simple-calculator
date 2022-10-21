@@ -1,0 +1,11 @@
+#background{
+    position:absolute;
+    width: 50vw;
+    height: 95vh;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content:space-around;
+}
