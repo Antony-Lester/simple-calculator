@@ -1,11 +1,15 @@
 #background{
     position:absolute;
+    top: 0;
+    right:50vw;
     width: 50vw;
-    height: 95vh;
+    height: 75vh;
     overflow: visible;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     justify-content: space-around;
-    align-content:space-around;
+    align-items: flex-end;
+    align-content:space-between;
+    transform: translate(0%, 20%);
 }

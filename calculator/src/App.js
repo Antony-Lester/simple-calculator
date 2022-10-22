@@ -42,7 +42,7 @@ const App = () => {
 		num: 0,
 		res: 0,
 		index: 0,
-		record: ['', '', '', '', '', '', '', '', '', ''],
+		record: ['', '', '', '', ''],
 	});
 	const numClickHandler = (e) => {
 		e.preventDefault();
@@ -96,13 +96,13 @@ const App = () => {
 							),
 					  );
 			const newRecord = [...calc.record];
-			newRecord[calc.index === 9 ? 0 : calc.index + 1] = result;
+			newRecord[calc.index === 4 ? 0 : calc.index + 1] = result;
 			setCalc({
 				...calc,
 				res: result,
 				sign: '',
 				num: 0,
-				index: calc.index === 9 ? 0 : calc.index + 1,
+				index: calc.index === 4 ? 0 : calc.index + 1,
 				record: newRecord,
 			});
 		}

@@ -2,7 +2,7 @@ import "./Screen.css";
 
 const Screen = ({ value }) => {
   return (
-    <div className="screen" mode="single" max={20}>
+    <div className="screen" mode="single">
       {value}
     </div>
   );
