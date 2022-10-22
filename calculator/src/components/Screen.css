@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,700&display=swap');
 .screen {
     height: 100px;
+    max-height: 10vh;
     width: 100%;
     margin-bottom: 10px;
     padding: 0 10px;

@@ -3,7 +3,7 @@
     top: 50vh;
     left: 50vw;
     width: 340px;
-    height: 540px;
+    height: calc(540px +0.2vh);
     max-width: 40vw;
     max-height: 70vh;
     transform: translate(10%, -50%);
